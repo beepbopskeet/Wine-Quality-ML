@@ -64,8 +64,8 @@ Observations:
 ---
 
 ## 📈 Pairplot Analysis
+<img width="1224" height="918" alt="Feature Distributions" src="https://github.com/user-attachments/assets/68bf4829-8a4a-4321-ac79-1c6b548cee61" />
 
-![Pairplot](images/pairplot.png)
 
 Pairwise visualizations help identify:
 
