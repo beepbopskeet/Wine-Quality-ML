@@ -43,8 +43,8 @@ The distributions reveal:
 ---
 
 ## 🔥 Correlation Heatmap
+<img width="1048" height="814" alt="Heatmap" src="https://github.com/user-attachments/assets/c2e92a0d-7ca7-497c-8a6b-0eb2f87f23e7" />
 
-![Correlation Heatmap](images/correlation_heatmap.png)
 
 ### Key Findings
 
