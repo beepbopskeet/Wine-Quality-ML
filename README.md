@@ -1,53 +1,108 @@
 # 🍷 Wine Quality Analysis
 
-This project analyzes the Wine Quality dataset from Kaggle using Python.  
-It was created as part of the Udemy course **"Veri Bilimi ve Makine Öğrenmesi 2025: 100 Günlük Kamp"** by **Atıl Samancıoğlu**.
-
-The notebook includes exploratory data analysis (EDA), feature visualization, and a basic machine learning model to classify red wine quality.
+Exploratory Data Analysis (EDA) of the Wine Quality Dataset using Python, Pandas, Matplotlib, and Seaborn.
 
 ---
 
-## 📊 Dataset
+## 📌 Project Overview
 
-- Source: [Wine Quality Dataset (Red Wine)](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009)
-- 1599 samples, 11 numerical features + 1 quality score
-- Goal: Predict wine quality from physicochemical attributes
+This project investigates the physicochemical properties of red wine samples and their relationship with wine quality scores.
 
----
+The analysis includes:
 
-## 🔧 Tools & Libraries
-
-- Python (Pandas, NumPy)
-- Seaborn & Matplotlib (for visualization)
-- Scikit-learn (model building & evaluation)
-- Jupyter Notebook / Kaggle
-
----
-
-## 📁 Project Structure
-
-- `wine-quality-analysis.ipynb` – Main notebook
-- `README.md` – Project description
-- Visuals: KDE plots, heatmap, histograms, scatterplots
-
+- Data cleaning
+- Duplicate removal
+- Statistical exploration
+- Feature distribution analysis
+- Correlation analysis
+- Outlier detection
+- Relationship visualization
 
 ---
 
-## 🎯 Key Learnings
+## 🛠 Technologies Used
 
-- How to explore a real-world dataset
-- Feature selection and correlation analysis
-- Basic binary classification with Scikit-learn
-- Visual storytelling with Matplotlib and Seaborn
-
----
-
-## 👨‍🏫 Course Info
-
-**Course Name**: Veri Bilimi ve Makine Öğrenmesi 2025: 100 Günlük Kamp  
-**Instructor**: [Atıl Samancıoğlu](https://www.udemy.com/user/atil-samancioglu/)  
-**Platform**: Udemy
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
 ---
 
+## 📊 Feature Distributions
+
+
+The distributions reveal:
+
+- Residual sugar and sulfur dioxide are highly right-skewed.
+- Density follows an approximately normal distribution.
+- Wine quality is concentrated around scores 5 and 6.
+
+---
+
+## 🔥 Correlation Heatmap
+
+![Correlation Heatmap](images/correlation_heatmap.png)
+
+### Key Findings
+
+| Feature | Correlation with Quality |
+|----------|----------|
+| Alcohol | +0.48 |
+| Sulphates | +0.26 |
+| Citric Acid | +0.24 |
+| Volatile Acidity | -0.41 |
+
+Observations:
+
+- Higher alcohol content tends to increase wine quality.
+- Higher volatile acidity tends to reduce wine quality.
+- Sulphates show a moderate positive relationship with quality.
+
+---
+
+## 📈 Pairplot Analysis
+
+![Pairplot](images/pairplot.png)
+
+Pairwise visualizations help identify:
+
+- Feature interactions
+- Cluster patterns
+- Potential separation between quality groups
+
+---
+
+## 🚀 How to Run
+
+```bash
+git clone https://github.com/USERNAME/wine-quality-analysis.git
+
+cd wine-quality-analysis
+
+pip install -r requirements.txt
+
+jupyter notebook
+```
+
+---
+
+## 📚 Dataset
+
+Wine Quality Dataset (WineQT)
+
+Source:
+https://www.kaggle.com/datasets/yasserh/wine-quality-dataset
+
+---
+
+## 🎯 Future Improvements
+
+- Machine Learning Models
+- Quality Prediction
+- Feature Importance Analysis
+- Model Comparison
+- Hyperparameter Tuning
 
